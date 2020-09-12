@@ -1,0 +1,21 @@
+---
+site_name: Material for MkDocs demo
+# site_url: https://squidfunk.github.io/mkdocs-material/
+site_author: mafrosis
+site_description: >-
+  Playground built ontop of https://squidfunk.github.io/mkdocs-material
+
+repo_name: mafrosis/mkdocs
+repo_url: https://github.com/mafrosis/mkdocs
+
+copyright: Hello from mafrosis
+
+theme:
+  name: material
+
+# plugins execute in order, minify should come last
+plugins:
+  - search
+  - git-revision-date-localized
+  - minify:
+      minify_html: true
