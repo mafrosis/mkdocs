@@ -12,6 +12,8 @@ copyright: Hello from mafrosis
 
 theme:
   name: material
+  icon:
+    repo: fontawesome/brands/github
 
 # plugins execute in order, minify should come last
 plugins:
