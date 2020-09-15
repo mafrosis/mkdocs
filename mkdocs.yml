@@ -14,6 +14,14 @@ theme:
   name: material
   icon:
     repo: fontawesome/brands/github
+  features:
+    - tabs
+
+nav:
+  - Home: index.md
+  - How to use:
+      - Playground: howto/playground.md
+      - Contribution: howto/contribution.md
 
 # plugins execute in order, minify should come last
 plugins:
