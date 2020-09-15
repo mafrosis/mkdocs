@@ -27,5 +27,9 @@ nav:
 plugins:
   - search
   - git-revision-date-localized
+  - drawio-exporter:
+      cache_dir: .drawio-exporter
+      drawio_args:
+        - --no-sandbox
   - minify:
       minify_html: true

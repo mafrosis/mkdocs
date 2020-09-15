@@ -2,3 +2,6 @@
 
 # built output directory
 site
+
+# draw.io rendered files
+docs/.drawio-exporter
