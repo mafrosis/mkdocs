@@ -34,6 +34,29 @@ Render an info box, or "callout" box. These can default to render either open, o
 Powered by the [pymdownx `details` extension](https://facelessuser.github.io/pymdown-extensions/extensions/details)
 
 
+## Footnotes
+
+Support for references or footnotes in body text. Most useful for repeated references to an external
+source.
+
+**Demo**
+
+A initial reference[^1] to some remote source[^1]. Followed by a second reference[^2].
+
+[^1]: https://example.com/footnote1
+[^2]: https://example.com/footnote2
+
+**Syntax**
+
+```
+A initial reference[^1] to some remote source[^1]. Followed by a second reference[^2].
+
+[^1]: https://example.com/footnote1
+[^2]: https://example.com/footnote2
+```
+Powered by the [python-markdown `footnotes` extension](https://python-markdown.github.io/extensions/footnotes)
+
+
 ## Native support for .drawio images
 
 Render .drawio files as SVG during the site build.
