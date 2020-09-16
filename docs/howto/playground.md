@@ -37,3 +37,15 @@ This is demo text
 {: #someid .someclass somekey='some value' }
 ```
 Powered by the [python-markdown `attr_list` extension](https://python-markdown.github.io/extensions/attr_list)
+
+
+## Render emoji
+
+Put emojis in your doco :memo:.
+
+**Syntax**
+
+```
+:memo:
+```
+Powered by the [pymdownx emoji extension](https://facelessuser.github.io/pymdown-extensions/extensions/emoji)
