@@ -4,6 +4,39 @@ MkDocs Playground
 A page which simply demonstrates the things we can do with markdown in this system.
 
 
+## Code
+
+Show code snippets with syntax highlighting.
+
+**Demo**
+
+```python
+def fibonacci():
+    '''Generator for the fibonacci series'''
+    a = 0
+    b = 1
+    while True:
+        yield a
+        a, b = b, a + b
+```
+
+**Syntax**
+
+```
+```python
+def fibonacci():
+  '''Generator for the fibonacci series'''
+  a = 0
+  b = 1
+  while True:
+      yield a
+      a, b = b, a + b
+````
+```
+The final trailing backtick must be removed from your markdown - it's here so the example renders
+correctly.
+
+
 ## Info box
 
 Render an info box, or "callout" box. These can default to render either open, or closed.
