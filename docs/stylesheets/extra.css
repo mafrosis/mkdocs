@@ -1,0 +1,10 @@
+.tabbed-set { 
+	border-style: solid;
+	border-width: thin;
+	border-color: var(--md-default-fg-color--lightest);
+	padding: 0 0.5rem;
+}
+
+.tabbed-content {
+	padding: 0 0.2rem;
+}

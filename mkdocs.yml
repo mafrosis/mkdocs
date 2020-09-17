@@ -17,6 +17,9 @@ theme:
   features:
     - tabs
 
+extra_css:
+  - stylesheets/extra.css
+
 nav:
   - Home: index.md
   - How to use:
