@@ -37,6 +37,48 @@ The final trailing backtick must be removed from your markdown - it's here so th
 correctly.
 
 
+## Tabs
+
+Separate content with tabbed blocks.
+
+**Demo**
+
+===! "Tab 1"
+    Markdown **content**
+
+    Multiple paragraphs
+
+=== "Tab 2"
+    More Markdown __content__
+
+    - list item a
+    - list item b
+
+    ```js
+    for(i=0;++i<101;console.log(i%5?f||i:f+'Buzz'))f=i%3?'':'Fizz'
+    ```
+
+**Syntax**
+
+```
+===! "Tab 1"
+    Markdown **content**
+
+    Multiple paragraphs
+
+=== "Tab 2"
+    More Markdown __content__
+
+    - list item a
+    - list item b
+
+    ```js
+    for(i=0;++i<101;console.log(i%5?f||i:f+'Buzz'))f=i%3?'':'Fizz'
+    ```
+```
+Powered by the [pymdownx `tabbed` extension](https://facelessuser.github.io/pymdown-extensions/extensions/tabbed)
+
+
 ## Info box
 
 Render an info box, or "callout" box. These can default to render either open, or closed.
